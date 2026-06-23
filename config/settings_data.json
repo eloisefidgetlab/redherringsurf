@@ -188,12 +188,12 @@
               "menu": "support"
             }
           },
-          "footer-klaviyo": {
+          "klaviyo_jeXVzn": {
             "type": "klaviyo",
             "settings": {
               "title": "Stay in the loop",
-              "subtext": "Subscribe for surf news, new arrivals and exclusive offers.",
-              "form_id": ""
+              "subtext": "",
+              "form_id": "XhgudH"
             }
           }
         },
@@ -202,7 +202,7 @@
           "c3198df5-2e31-495f-922b-d0b6b79795fb",
           "a1bbde70-dee2-4a64-8ce7-96f3acd0ff3f",
           "31fbc761-5a3a-4746-acf2-7a4fd9c34745",
-          "footer-klaviyo"
+          "klaviyo_jeXVzn"
         ],
         "settings": {
           "show_payment_methods": false,
