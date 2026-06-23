@@ -236,6 +236,23 @@
   </style>
 {%- endif -%}
 
+<style>
+  @media screen and (min-width: 641px) {
+    #section-{{ section.id }} .Footer__Inner {
+      flex-wrap: nowrap;
+    }
+    #section-{{ section.id }} .Footer__Block {
+      flex: 1 1 0%;
+      min-width: 0;
+    }
+  }
+  #section-{{ section.id }} .Footer__Block--klaviyo .klaviyo-form-XhgudH,
+  #section-{{ section.id }} .Footer__Block--klaviyo form[data-testid] {
+    max-width: 100% !important;
+    width: 100% !important;
+  }
+</style>
+
 {% schema %}
 {
   "name": "Footer",
