@@ -45,6 +45,21 @@
                   </ul>
                 {%- endif -%}
 
+              {%- when 'klaviyo' -%}
+                {%- if block.settings.title != blank -%}
+                  <h2 class="Footer__Title Heading u-h6">{{ block.settings.title | escape }}</h2>
+                {%- endif -%}
+
+                {%- if block.settings.subtext != blank -%}
+                  <div class="Footer__Content Rte">
+                    <p>{{ block.settings.subtext | escape }}</p>
+                  </div>
+                {%- endif -%}
+
+                {%- if block.settings.form_id != blank -%}
+                  <div class="klaviyo-form-{{ block.settings.form_id }}"></div>
+                {%- endif -%}
+
               {%- when 'newsletter' -%}
                 {%- if block.settings.title != blank -%}
                   <h2 class="Footer__Title Heading u-h6">{{ block.settings.title | escape }}</h2>
@@ -301,6 +316,30 @@
           "id": "menu",
           "label": "Menu",
           "info": "This menu won't show dropdown items."
+        }
+      ]
+    },
+    {
+      "type": "klaviyo",
+      "name": "Klaviyo Newsletter",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Heading",
+          "default": "Stay in the loop"
+        },
+        {
+          "type": "text",
+          "id": "subtext",
+          "label": "Subtext"
+        },
+        {
+          "type": "text",
+          "id": "form_id",
+          "label": "Klaviyo Form ID",
+          "info": "Enter the Klaviyo form ID (e.g. AbCd1E). Found in your Klaviyo dashboard under Sign-up forms."
         }
       ]
     },
