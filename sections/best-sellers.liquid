@@ -22,7 +22,7 @@
     <h2>{{ section.settings.title }}</h2>
   </header>
 
-  <div class="ProductList ProductList--carousel Carousel" data-flickity="{{ flickity_options }}">
+  <div class="ProductList ProductList--carousel Carousel" data-flickity="{{ flickity_options | escape }}">
     {%- for block in section.blocks -%}
       <div class="Carousel__Cell">
         <div class="Carousel__Cell--item">
