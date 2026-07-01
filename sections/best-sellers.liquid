@@ -50,6 +50,31 @@
   {% endif %}
 </section>
 
+<script>
+  (function () {
+    function initBestSellers(container) {
+      var carousel = container.querySelector('[data-flickity]');
+      if (!carousel) return;
+
+      // Destroy any existing Flickity instance before re-initialising
+      var existing = window.Flickity ? Flickity.data(carousel) : null;
+      if (existing) existing.destroy();
+
+      if (window.Flickity) {
+        try {
+          var options = JSON.parse(carousel.getAttribute('data-flickity'));
+          new Flickity(carousel, options);
+        } catch (e) {}
+      }
+    }
+
+    document.addEventListener('shopify:section:load', function (event) {
+      var container = event.target.querySelector('[data-section-type="best-sellers"]');
+      if (container) initBestSellers(container);
+    });
+  })();
+</script>
+
 {% schema %}
 {
   "name": "Best Sellers",
