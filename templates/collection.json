@@ -1,0 +1,18 @@
+{
+  "sections": {
+    "main": {
+      "type": "collection-template"
+    },
+    "recently_viewed": {
+      "type": "recently-viewed-products"
+    },
+    "collection_footer": {
+      "type": "collection-footer"
+    }
+  },
+  "order": [
+    "main",
+    "recently_viewed",
+    "collection_footer"
+  ]
+}

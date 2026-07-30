@@ -1,0 +1,18 @@
+{
+  "sections": {
+    "main": {
+      "type": "product-template"
+    },
+    "product_recommendations": {
+      "type": "product-recommendations"
+    },
+    "recently_viewed": {
+      "type": "recently-viewed-products"
+    }
+  },
+  "order": [
+    "main",
+    "product_recommendations",
+    "recently_viewed"
+  ]
+}

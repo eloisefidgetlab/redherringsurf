@@ -1,0 +1,14 @@
+{
+  "sections": {
+    "main": {
+      "type": "cart-template"
+    },
+    "recently_viewed": {
+      "type": "recently-viewed-products"
+    }
+  },
+  "order": [
+    "main",
+    "recently_viewed"
+  ]
+}

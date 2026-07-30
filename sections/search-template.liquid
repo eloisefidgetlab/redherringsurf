@@ -148,11 +148,11 @@
 			sorting_sale_descending: {% assign temp = 'collections.sorting.sale_descending' | t %} {% unless temp contains 'translation missing'  %} "{{ temp }}" {% else %} "% Off" {% endunless %},
 			sorting_relevance: {% assign temp = 'collections.sorting.relevance' | t %} {% unless temp contains 'translation missing'  %} "{{ temp }}" {% else %} "Relevance" {% endunless %},
 			view_product: {% assign temp = 'collection.product.view_product' | t  %} {% unless temp contains 'translation missing'  %} "{{ temp }}" {% else %} "View" {% endunless %},
-		
+
 			sale: {% assign temp = 'product.labels.on_sale' | t   %} {% unless temp contains 'translation missing'  %} "{{ temp }}" {% else %} "On Sale" {% endunless %},
 			sold_out: {% assign temp = 'product.labels.sold_out' | t   %} {% unless temp contains 'translation missing'  %} "{{ temp }}" {% else %} "Sold out" {% endunless %},
 			from: {% assign temp = 'collection.product.from_price_html' | t   %} {% unless temp contains 'translation missing'  %} "{{ temp }}" {% else %} "From" {% endunless %},
-			
+
 			search_results_zero: "{{ 'search.general.results_with_terms_count.zero' | t  }}",
 			search_results_one: "{{ 'search.general.results_with_terms_count.one' | t  }}",
 			search_results_other: "{{ 'search.general.results_with_terms_count.other' | t  }}",
@@ -188,7 +188,7 @@
 	var boostPFSTemplate = {
 		// Grid Template
 		'productGridItemHtml': {% render 'boost-pfs-filter-html', layout: 'productGridItemHtml' %},
-			
+
 		// Pagination Template
 		'previousActiveHtml': {% render 'boost-pfs-filter-html', layout: 'previousActiveHtml' %},
 		'previousDisabledHtml': {% render 'boost-pfs-filter-html', layout: 'previousDisabledHtml' %},
@@ -204,3 +204,9 @@
 		'sortingHtml': {% render 'boost-pfs-filter-html', layout: 'sortingHtml' %},
 	};
 </script>
+
+{% schema %}
+{
+  "name": "Search (Boost PFS)"
+}
+{% endschema %}
