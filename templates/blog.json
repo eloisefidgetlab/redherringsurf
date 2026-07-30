@@ -4,7 +4,16 @@
       "type": "blog-template"
     },
     "shop_now": {
-      "type": "shop-now"
+      "type": "shop-now",
+      "settings": {
+        "show_section": false,
+        "title": "Shop now",
+        "collection": "",
+        "grid_items_count": 6,
+        "show_product_info": true,
+        "show_vendor": false,
+        "show_color_swatch": false
+      }
     }
   },
   "order": [

@@ -1,7 +1,176 @@
 {
   "sections": {
     "main": {
-      "type": "page-brands-template"
+      "type": "page-brands-template",
+      "settings": {
+        "title": "Brands",
+        "text": "This is a test",
+        "link": "https://www.boardcollective.com.au"
+      },
+      "blocks": {
+        "ed2dc377-1a18-4bbb-99fb-342134c63426": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/arnette.png",
+            "brand": "Arnette"
+          }
+        },
+        "35338e46-fbd1-49b8-ad53-a88dfc47df07": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/billabong.png",
+            "brand": ""
+          }
+        },
+        "2527f938-25e3-4184-8f06-1a8a77638292": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/birkenstock.png",
+            "brand": ""
+          }
+        },
+        "98facc46-2395-48f3-a6fa-9b2bb9c44c97": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/santa.png",
+            "brand": ""
+          }
+        },
+        "e3f67399-8cce-4407-899c-17892721013f": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/bfive2.png",
+            "brand": ""
+          }
+        },
+        "16949c4c-85db-44ce-874d-52e92533ef62": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/birkenstock.png",
+            "brand": ""
+          }
+        },
+        "8080f7da-fe6e-41c7-9a8a-ca566b637f10": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/js.png",
+            "brand": ""
+          }
+        },
+        "6ef314db-8ce4-4196-b3f7-30d7210849e5": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/vans.png",
+            "brand": ""
+          }
+        },
+        "1db809f5-7268-4ff8-a7ed-73d5fc934e6d": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/ripcurl.png",
+            "brand": ""
+          }
+        },
+        "c7f77a8f-21ed-4dff-b68b-1e20e337e97b": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/arnette.png",
+            "brand": ""
+          }
+        },
+        "25eea68b-408e-4ddb-be00-b8546673dd58": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/arnette.png",
+            "brand": ""
+          }
+        },
+        "2be9303a-c2f9-4876-ba85-d6613c5ea0da": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/billabong.png",
+            "brand": ""
+          }
+        },
+        "d7ae7733-144f-4827-a69e-46abe2df872d": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/birkenstock.png",
+            "brand": ""
+          }
+        },
+        "b7af0716-1faa-4377-97e8-bc4e322cef06": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/santa.png",
+            "brand": ""
+          }
+        },
+        "adaa8c64-79a4-4c7b-98be-4ea7547bcc37": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/bfive2.png",
+            "brand": ""
+          }
+        },
+        "1a4a20c4-ecdc-43af-a08d-93b320e3eb29": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/birkenstock.png",
+            "brand": ""
+          }
+        },
+        "c087f107-d1b4-44f7-a874-050ae31df4af": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/js.png",
+            "brand": ""
+          }
+        },
+        "01bcd2fb-f6d1-41b2-9113-8a893cdb1e86": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/vans.png",
+            "brand": ""
+          }
+        },
+        "813ac6a7-14a8-463a-b906-23f170daab9a": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/ripcurl.png",
+            "brand": ""
+          }
+        },
+        "7244cbcd-9a02-4be7-98ad-1f67e9425435": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/arnette.png",
+            "brand": ""
+          }
+        }
+      },
+      "block_order": [
+        "ed2dc377-1a18-4bbb-99fb-342134c63426",
+        "35338e46-fbd1-49b8-ad53-a88dfc47df07",
+        "2527f938-25e3-4184-8f06-1a8a77638292",
+        "98facc46-2395-48f3-a6fa-9b2bb9c44c97",
+        "e3f67399-8cce-4407-899c-17892721013f",
+        "16949c4c-85db-44ce-874d-52e92533ef62",
+        "8080f7da-fe6e-41c7-9a8a-ca566b637f10",
+        "6ef314db-8ce4-4196-b3f7-30d7210849e5",
+        "1db809f5-7268-4ff8-a7ed-73d5fc934e6d",
+        "c7f77a8f-21ed-4dff-b68b-1e20e337e97b",
+        "25eea68b-408e-4ddb-be00-b8546673dd58",
+        "2be9303a-c2f9-4876-ba85-d6613c5ea0da",
+        "d7ae7733-144f-4827-a69e-46abe2df872d",
+        "b7af0716-1faa-4377-97e8-bc4e322cef06",
+        "adaa8c64-79a4-4c7b-98be-4ea7547bcc37",
+        "1a4a20c4-ecdc-43af-a08d-93b320e3eb29",
+        "c087f107-d1b4-44f7-a874-050ae31df4af",
+        "01bcd2fb-f6d1-41b2-9113-8a893cdb1e86",
+        "813ac6a7-14a8-463a-b906-23f170daab9a",
+        "7244cbcd-9a02-4be7-98ad-1f67e9425435"
+      ]
     }
   },
   "order": [

@@ -4,7 +4,14 @@
       "type": "cart-template"
     },
     "recently_viewed": {
-      "type": "recently-viewed-products"
+      "type": "recently-viewed-products",
+      "settings": {
+        "show_section": true,
+        "title": "Recently viewed",
+        "show_product_info": true,
+        "show_vendor": false,
+        "show_color_swatch": false
+      }
     }
   },
   "order": [
