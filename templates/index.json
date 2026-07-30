@@ -6,8 +6,8 @@
         "image_FAH96T": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/BC_SALE_-_WEB_DESKTOP_6dc62f4a-3726-4a6e-a200-2c00fda6a89b.jpg",
-            "mobile_image": "shopify://shop_images/BC_SALE_-_WEB_MOBILE_44978dab-2098-4111-a693-a9ea37176e31.jpg",
+            "image": "shopify://shop_images/Web_banner.jpg",
+            "mobile_image": "shopify://shop_images/Mobile_banner.jpg",
             "apply_overlay": false,
             "content_position": "bottomCenter",
             "subheading": "",
@@ -91,18 +91,6 @@
         "title": "SHOP THE LATEST",
         "button_text": "SHOP ALL",
         "button_link": "https://boardcollective.com.au/collections/new-in-1"
-      }
-    },
-    "1612921474fa29c026": {
-      "type": "shop-board-collection",
-      "settings": {
-        "image": "shopify://shop_images/BC_logo_white.png",
-        "text": "Shop all your favourite brands from all of your favourite stores in one convenient location.\n\nBoardCollective is an online collaboration between Saltwater Wine, Stormriders and Red Herring Surf - all part of Wilson Retail Co - offering a huge variety of brands (launching with 137 to be exact!), and a unique online shopping experience. We are really proud to bring it to you! Enjoy...",
-        "button_text": "SHOP BOARDCOLLECTIVE",
-        "link": "https://boardcollective.com.au/",
-        "add_spacing": false,
-        "text_color": "#ffffff",
-        "background_colour": "#414747"
       }
     },
     "161300724472083717": {
@@ -572,26 +560,37 @@
         "title": "FEATURED BRANDS"
       }
     },
-    "1631145918e8dd1bdb": {
-      "type": "featured-collection-with-text",
+    "slideshow_CNYYxk": {
+      "type": "slideshow",
+      "blocks": {
+        "image_g4UTge": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/gempages_547951503764095880-4710b030-e708-468d-bd4c-ddad0f1ce9d6.jpg",
+            "apply_overlay": true,
+            "content_position": "bottomCenter",
+            "subheading": "",
+            "title": "",
+            "slidecontent": "",
+            "button_1_text": "Join our loyalty program",
+            "button_1_link": "https://boardcollective.com.au/account/register",
+            "button_2_text": "",
+            "button_2_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_g4UTge"
+      ],
+      "name": "Slideshow",
       "settings": {
-        "subtitle": "JOIN",
-        "title": "MATES OF BOARDCOLLECTIVE",
-        "image": "shopify://shop_images/53830.jpg",
-        "button_text": "SIGN UP",
-        "link": "https://boardcollective.com.au/account/register"
-      }
-    },
-    "16137087229db59c09": {
-      "type": "gift-voucher",
-      "disabled": true,
-      "settings": {
-        "title": "GIFT VOUCHERS",
-        "background": "shopify://shop_images/SWW_GIFT_VOUCHER_WEB_BANNER_1.png",
-        "background_mobile": "shopify://shop_images/SWW_MOB_WEB_BANNER_1.png",
-        "store_button": "redherring",
-        "button_text": "LEARN MORE",
-        "link": "shopify://pages/gift-voucher"
+        "show_fullscreen": false,
+        "show_arrow": false,
+        "autoplay": false,
+        "cycle_speed": 5,
+        "text_color": "#ffffff",
+        "button_color": "#363636",
+        "button_background": "#ffffff"
       }
     },
     "1613446965c6073163": {
@@ -722,7 +721,6 @@
   "order": [
     "f713e4f6-ecb4-495a-849a-77e6f469d241",
     "1613007067628f4e9d",
-    "1612921474fa29c026",
     "161300724472083717",
     "1612395848d2209b66",
     "1610332972bc0ae347",
@@ -732,8 +730,7 @@
     "16141223898f2a0ce8",
     "161422297268ce815b",
     "1613532506d7a5b799",
-    "1631145918e8dd1bdb",
-    "16137087229db59c09",
+    "slideshow_CNYYxk",
     "1613446965c6073163",
     "16142240776a885eaa",
     "1613532771e59261b7",
